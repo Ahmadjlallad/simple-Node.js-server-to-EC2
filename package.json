@@ -1,0 +1,24 @@
+{
+  "name": "simple-node.js-server-to-ec2",
+  "version": "1.0.0",
+  "description": "trying to deploy simple express server on aws EC2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmadjlallad/simple-Node.js-server-to-EC2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmadjlallad/simple-Node.js-server-to-EC2/issues"
+  },
+  "homepage": "https://github.com/Ahmadjlallad/simple-Node.js-server-to-EC2#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
